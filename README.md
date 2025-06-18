@@ -217,7 +217,7 @@ Superior performance compared to alternatives:
 - Test equipment for validation
 
 ---
-
+```mermaid
 ---
 config:
   layout: fixed
@@ -240,7 +240,7 @@ flowchart TD
     Power_Resistor --> Digital["Digital Multimeter"] & n1
     Pressure_Gauge["Pressure Gauge"] --> Solenoid
     Digital --> ESP32
-
+```
 
 ---
 ### Build Cost
