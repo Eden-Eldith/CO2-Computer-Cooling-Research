@@ -216,6 +216,33 @@ Superior performance compared to alternatives:
 - CAD software for hardware designs
 - Test equipment for validation
 
+---
+
+---
+config:
+  layout: fixed
+---
+flowchart TD
+    CO2["CO₂ Tank"] --> Pressure_Relief["Pressure Relief"] & Regulator_Gauge["Regulator/Gauge"]
+    Regulator_Gauge --> CO2_Proof["CO₂-proof Tubing"]
+    Pressure_Relief --> CO2_Proof
+    CO2_Proof --> Barb["Barb Fitting"]
+    Barb --> Solenoid["Solenoid Valve"]
+    Solenoid --> HeatsinkF["Heatsink/Fan"]
+    HeatsinkF --> TEC["TEC Module"]
+    TEC --> DS18B20["DS18B20 Temp"] & n1["Heat Load"]
+    DS18B20 --> Power_Resistor["Power Resistor (Sim)"] & ESP32["ESP32"]
+    ESP32 --> Relay["Relay Module"]
+    Relay --> Solenoid
+    Cooling["Cooling Fan"] --> HeatsinkF
+    DC_Power["DC Power Supply"] --> Inline_Fuse["Inline Fuse"]
+    Inline_Fuse --> Power_Resistor
+    Power_Resistor --> Digital["Digital Multimeter"] & n1
+    Pressure_Gauge["Pressure Gauge"] --> Solenoid
+    Digital --> ESP32
+
+
+---
 ### Build Cost
 - Approximate cost: £229
 - Off-the-shelf components
