@@ -218,10 +218,6 @@ Superior performance compared to alternatives:
 
 ---
 ```mermaid
----
-config:
-  layout: fixed
----
 flowchart TD
     CO2["CO₂ Tank"] --> Pressure_Relief["Pressure Relief"] & Regulator_Gauge["Regulator/Gauge"]
     Regulator_Gauge --> CO2_Proof["CO₂-proof Tubing"]
