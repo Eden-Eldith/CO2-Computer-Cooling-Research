@@ -2,7 +2,9 @@
 
 <div align="center">
 
-![CO2-COOL Concept](https://github.com/user-attachments/assets/b0be2077-537a-4608-808e-89874675c434)
+![CO2-COOL Concept](https://github.com/user-attachments/assets/0ccc3fa4-01b2-47e1-8b05-f57477d8f20f)
+
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0--research-blue)](https://github.com/pcobrien/CO2-Adaptive-Cooling)
