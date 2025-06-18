@@ -1,0 +1,17 @@
+---
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "CO2-Based Adaptive Cooling Architecture"
+version: "1.0.0"
+authors:
+  - family-names: O'Brien
+    given-names: P.C.
+    orcid: "0000-0000-0000-0000"
+    affiliation: University of Example
+keywords:
+  - cooling
+  - CO2
+  - simulation
+license: MIT
+repository-code: "https://github.com/pcobrien/CO2-Adaptive-Cooling"
+---

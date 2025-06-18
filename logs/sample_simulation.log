@@ -1,0 +1,4 @@
+[ 300s] STATUS: Temp: 60.00°C | CO₂: 2900J | Battery: 59.5Wh | Mode: NORMAL
+[ 600s] STATUS: Temp: 64.20°C | CO₂: 2875J | Battery: 58.9Wh | Mode: NORMAL
+[ 900s] EMERGENCY PURGE: Temp → 72.00°C | CO₂ Left: 2590J | Fan:80% | Battery: 58.0Wh
+...

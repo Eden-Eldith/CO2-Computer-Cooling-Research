@@ -1,4 +1,6 @@
 # CO2-Based Adaptive Cooling Architecture for Computing Systems
+See [docs/README](docs/README.md) for additional documentation.
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/pcobrien/CO2-Adaptive-Cooling/releases)
