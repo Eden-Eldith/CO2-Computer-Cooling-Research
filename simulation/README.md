@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-green)](https://github.com/pcobrien/CO2-Adaptive-Cooling/tree/main/simulation)
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/pcobrien/CO2-Adaptive-Cooling/tree/main/simulation)
-[![Dependencies](https://img.shields.io/badge/Dependencies-numpy%20%7C%20matplotlib-orange)](https://github.com/pcobrien/CO2-Adaptive-Cooling/blob/main/simulation/requirements.txt)
+[![Dependencies](https://img.shields.io/badge/Dependencies-numpy%20%7C%20matplotlib%20%7C%20RPi.GPIO-orange)](https://github.com/pcobrien/CO2-Adaptive-Cooling/blob/main/simulation/requirements.txt)
 [![Status](https://img.shields.io/badge/Status-Validated-success.svg)](https://github.com/pcobrien/CO2-Adaptive-Cooling/tree/main/simulation)
 
 This directory contains the mathematical models, simulation code, and analysis tools for the CO2-Based Adaptive Cooling project. The simulation framework implements a comprehensive thermal model based on established thermodynamic principles, with validation against theoretical predictions demonstrating accurate performance modeling for both field-deployed and domestic outdoor computing scenarios.
@@ -113,6 +113,7 @@ Where:
   ```
   numpy>=1.21.0    # Array operations, thermal calculations
   matplotlib>=3.4.0 # Performance visualization
+  RPi.GPIO         # Hardware control for tactical Pi cooling
   ```
 
 ### Installation
