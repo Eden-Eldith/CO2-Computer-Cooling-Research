@@ -1,4 +1,6 @@
 # CO2-COOL: Adaptive CO2-Based Cooling Architecture (Research Project)
+## UPDATE: Currently waiting on pre-print acceptance on SSRN - Rejected from osf beacuse ⬇️
+![image](https://github.com/user-attachments/assets/6d955b38-2eab-41fb-8551-ecc16776e97b)
 
 <div align="center">
 
